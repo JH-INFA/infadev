@@ -1,0 +1,67 @@
+{
+  "objectInfo" : {
+    "id" : "igsI9R1x1SDlhnPsDZvRGJ",
+    "name" : "m_SAP_Cust_to_SF_Acct",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N97170000000001OC"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "dJfssYLYVWfjNG2mwx9622",
+    "name" : "conn_SAP_APAC_Table_Reader",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970B00000000007Z"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "SAP APAC Table Reader",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3MCZHWeRQNybYncqpnIvuZ",
+    "name" : "conn_Salesforce_SFDC_APAC",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970B000000000086"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Salesforce SFDC Connection for APAC",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

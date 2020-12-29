@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "8L8v0SCQiZ6lgfgVvyaRkA",
+    "name" : "SDFC-SAP-Account-Creation",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "tRJi4tciSrZMSPf-gt-10960702-2020-12-01T07:01:53.114Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "4h0GAp4pwaRdUcOwD47g0v",
+    "name" : "appconn-sap-bapi-customer",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0dx8AyNnQMMnGbc-gt-9333250-2020-11-29T18:53:33.99Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/APAC_SAP_SF_POC"
+  } ]
+}

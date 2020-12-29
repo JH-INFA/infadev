@@ -1,0 +1,106 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>Uq0gbeCFk4AdypK-gt-11016295-2020-12-01T08:43:32.743Z::conn.xml</types1:EntryId>
+      <types1:Name>APAC-account-log</types1:Name>
+      <types1:MimeType>application/xml+connection</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.agent:NA_01</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>rajesh.kothari@perisoft.dev</types1:CreatedBy>
+      <types1:CreationDate>2020-12-01T08:43:33Z</types1:CreationDate>
+      <types1:ModifiedBy>rajesh.kothari@perisoft.dev</types1:ModifiedBy>
+      <types1:ModificationDate>2020-12-01T11:48:37Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>rajesh.kothari@perisoft.dev</types1:PublishedBy>
+      <types1:PublicationDate>2020-12-01T11:48:42Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connection/APAC-account-log/APAC-account-log.conn.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <connection xmlns="http://schemas.informatica.com/socrates/data-services/2014/04/avosConnections.xsd"
+                     displayName="APAC-account-log"
+                     label="APAC-account-log"
+                     name="APAC-account-log">
+            <description/>
+            <tags>.agent:NA_01</tags>
+            <agent>NA_01</agent>
+            <attributes/>
+            <consumers>
+               <consumer enabled="true"
+                         name="DelimitedContentParser"
+                         typeName="DelimitedContentParser">
+                  <description>Use this event source to monitor folders for new delimited content files, such as CSV, and parse them.</description>
+                  <attributes>
+                     <attribute encrypted="false" name="directoryName" value="C:\temp\"/>
+                     <attribute encrypted="false" name="recursive" value="false"/>
+                     <attribute encrypted="false" name="include" value=""/>
+                     <attribute encrypted="false" name="exclude" value=""/>
+                     <attribute encrypted="false" name="noop" value="false"/>
+                     <attribute encrypted="false" name="delete" value="false"/>
+                     <attribute encrypted="false" name="preMove" value=""/>
+                     <attribute encrypted="false" name="move" value=""/>
+                     <attribute encrypted="false" name="moveFailed" value=""/>
+                     <attribute encrypted="false" name="initialDelay" value="1"/>
+                     <attribute encrypted="false" name="delay" value="1"/>
+                     <attribute encrypted="false" name="maxMessagesPerPoll" value=""/>
+                     <attribute encrypted="false" name="readLock" value="rename"/>
+                     <attribute encrypted="false" name="readLockTimeout" value=""/>
+                     <attribute encrypted="false" name="readLockCheckInterval" value=""/>
+                     <attribute encrypted="false" name="readLockMinLength" value=""/>
+                     <attribute encrypted="false" name="readLockLoggingLevel" value="WARN"/>
+                     <attribute encrypted="false" name="charset" value=""/>
+                     <attribute encrypted="false" name="otherAttributes" value=""/>
+                     <attribute encrypted="false" name="contentFormat" value="DelimitedContent"/>
+                     <attribute encrypted="false" name="columnsDescriptor" value=""/>
+                     <attribute encrypted="false" name="ignoreFirstRecord" value="true"/>
+                     <attribute encrypted="false" name="ignoreColumnInconsistency" value="false"/>
+                     <attribute encrypted="false" name="delimiter" value=","/>
+                     <attribute encrypted="false" name="textQualifier" value="&#34;"/>
+                     <attribute encrypted="false" name="splitRows" value="false"/>
+                     <attribute encrypted="false" name="useBuiltInProcessObject" value="true"/>
+                     <attribute encrypted="false" name="customObjectFields" value=""/>
+                  </attributes>
+               </consumer>
+            </consumers>
+            <producers>
+               <producer enabled="true"
+                         name="CustomerCreatelog"
+                         typeName="DelimitedContentWriter">
+                  <description>Use this event target to serialize process objects to delimited content files, such as CSV, and save them to files on a disk.</description>
+                  <attributes>
+                     <attribute encrypted="false" name="directoryName" value="C:\temp\"/>
+                     <attribute encrypted="false" name="fileExist" value="Append"/>
+                     <attribute encrypted="false" name="moveExisting" value=""/>
+                     <attribute encrypted="false" name="eagerDeleteTargetFile" value="true"/>
+                     <attribute encrypted="false" name="tempPrefix" value=""/>
+                     <attribute encrypted="false" name="tempFileName" value=""/>
+                     <attribute encrypted="false" name="forceWrites" value="true"/>
+                     <attribute encrypted="false" name="bufferSize" value=""/>
+                     <attribute encrypted="false" name="charset" value=""/>
+                     <attribute encrypted="false" name="delimiter" value=","/>
+                     <attribute encrypted="false" name="textQualifier" value="&#34;"/>
+                     <attribute encrypted="false" name="skipHeaders" value="false"/>
+                     <attribute encrypted="false" name="lineEnding" value="Windows"/>
+                  </attributes>
+               </producer>
+            </producers>
+            <javaConnector xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"
+                           agentOnly="true"
+                           plugin="Camel"
+                           supportsConnectionTest="true"
+                           supportsDataPreview="false"
+                           supportsOData="false"
+                           type="File"
+                           uuid="ac000300-d9fe-11e4-8830-0800200c9a66">
+               <description>Provides connections to file monitoring brokers.</description>
+            </javaConnector>
+         </connection>
+      </types1:Entry>
+      <types1:GUID>1ZqkZ1gu65HdL3tqHESxiQ</types1:GUID>
+      <types1:DisplayName>APAC-account-log</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2020-12-29T18:46:05.034Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

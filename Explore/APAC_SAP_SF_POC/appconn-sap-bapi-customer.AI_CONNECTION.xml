@@ -1,0 +1,60 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>0dx8AyNnQMMnGbc-gt-9333250-2020-11-29T18:53:33.99Z::conn.xml</types1:EntryId>
+      <types1:Name>appconn-sap-bapi-customer</types1:Name>
+      <types1:ParentFlowIds>tRJi4tciSrZMSPf-gt-10960702-2020-12-01T07:01:53.114Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+connection</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.agent:NA_01</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>rajesh.kothari@perisoft.dev</types1:CreatedBy>
+      <types1:CreationDate>2020-11-29T18:53:34Z</types1:CreationDate>
+      <types1:ModifiedBy>rajesh.kothari@perisoft.dev</types1:ModifiedBy>
+      <types1:ModificationDate>2020-12-01T06:39:28Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>rajesh.kothari@perisoft.dev</types1:PublishedBy>
+      <types1:PublicationDate>2020-12-01T06:50:30Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connection/appconn-sap-bapi-customer/appconn-sap-bapi-customer.conn.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <connection xmlns="http://schemas.informatica.com/socrates/data-services/2014/04/avosConnections.xsd"
+                     displayName="appconn-sap-bapi-customer"
+                     label="appconn-sap-bapi-customer"
+                     name="appconn-sap-bapi-customer">
+            <description/>
+            <tags>.agent:NA_01</tags>
+            <agent>NA_01</agent>
+            <attributes>
+               <attribute encrypted="false" name="Username" value="vijayn"/>
+               <attribute encrypted="true" name="Password" value=""/>
+               <attribute encrypted="false" name="Host Name" value="aladar"/>
+               <attribute encrypted="false" name="Client" value="200"/>
+               <attribute encrypted="false" name="Language" value="EN"/>
+               <attribute encrypted="false" name="System Number" value="00"/>
+               <attribute encrypted="false" name="Trace" value="true"/>
+               <attribute encrypted="false" name="SAP Additional Parameters" value=""/>
+               <attribute encrypted="false"
+                          name="Object Filter"
+                          value="BAPI_CUSTOMER_CREATEFROMDATA1"/>
+            </attributes>
+            <javaConnector xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"
+                           agentOnly="true"
+                           plugin="ICSX"
+                           supportsConnectionTest="true"
+                           supportsDataPreview="false"
+                           supportsOData="false"
+                           type="bapi"
+                           uuid="d8072d25-f006-47f4-8bfb-0a6d75765a63">
+               <description>SAP BAPI</description>
+            </javaConnector>
+         </connection>
+      </types1:Entry>
+      <types1:GUID>4h0GAp4pwaRdUcOwD47g0v</types1:GUID>
+      <types1:DisplayName>appconn-sap-bapi-customer</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2020-12-29T18:46:05.045Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

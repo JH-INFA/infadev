@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "1ZqkZ1gu65HdL3tqHESxiQ",
+    "name" : "APAC-account-log",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "Uq0gbeCFk4AdypK-gt-11016295-2020-12-01T08:43:32.743Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

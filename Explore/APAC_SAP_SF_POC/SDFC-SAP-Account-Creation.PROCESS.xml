@@ -1,0 +1,383 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>tRJi4tciSrZMSPf-gt-10960702-2020-12-01T07:01:53.114Z::pd.xml</types1:EntryId>
+      <types1:Name>SDFC-SAP-Account-Creation</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>rajesh.kothari@perisoft.dev</types1:CreatedBy>
+      <types1:CreationDate>2020-12-01T07:01:53Z</types1:CreationDate>
+      <types1:ModifiedBy>rajesh.kothari@perisoft.dev</types1:ModifiedBy>
+      <types1:ModificationDate>2020-12-01T12:41:57Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>rajesh.kothari@perisoft.dev</types1:PublishedBy>
+      <types1:PublicationDate>2020-12-01T12:42:02Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.SDFC-SAP-Account-Creation/SDFC-SAP-Account-Creation.pd.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="SDFC-SAP-Account-Creation"
+                  name="SDFC-SAP-Account-Creation"
+                  overrideAPIName="false">
+            <appliesTo/>
+            <description/>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <input>
+               <parameter description="" name="First name" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Last Name" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Street" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="City" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Post Code" type="int">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="House Number" type="int">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Country" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Region" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Currency" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Sales Org" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Sales Channel" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Division" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter description="" name="Reference" type="reference">
+                  <options>
+                     <option name="referenceTo">appconn-sap-bapi-customer:BAPI_CUSTOMER_CREATEFROMDATA1_OUTPUT</option>
+                     <option name="required">false</option>
+                     <option name="isCopy">true</option>
+                     <option name="guid">4h0GAp4pwaRdUcOwD47g0v</option>
+                  </options>
+               </parameter>
+            </input>
+            <output>
+               <field description="" name="Output Message" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </output>
+            <tempFields>
+               <field description="" name="SAP BAPI In" type="reference">
+                  <options>
+                     <option name="referenceTo">appconn-sap-bapi-customer:BAPI_CUSTOMER_CREATEFROMDATA1_INPUT</option>
+                     <option name="required">false</option>
+                     <option name="isCopy">true</option>
+                     <option name="guid">4h0GAp4pwaRdUcOwD47g0v</option>
+                  </options>
+               </field>
+               <field description="" name="tmp_script_out" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="SAP Language" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="SAP Customer Number" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="Message" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="File Name" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="File Content" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="ki5mhkdv" targetId="ki5mhkdu"/>
+               </start>
+               <assignment id="ki5mhkdu">
+                  <title>Assign to BAPI Input</title>
+                  <operation source="formula" to="temp.SAP BAPI In">
+                     <expression language="XQuery">&lt;BAPI_CUSTOMER_CREATEFROMDATA1_INPUT&gt;
+   &lt;Import&gt;
+      &lt;PI_OPT_COMPANYDATA&gt;
+         &lt;CONTROL_ACCOUNT&gt;&lt;/CONTROL_ACCOUNT&gt;
+         &lt;TAXJURCODE&gt;&lt;/TAXJURCODE&gt;
+         &lt;DELYG_PLNT&gt;&lt;/DELYG_PLNT&gt;
+         &lt;PMNTTRMS&gt;&lt;/PMNTTRMS&gt;
+         &lt;C_CTR_AREA&gt;&lt;/C_CTR_AREA&gt;
+         &lt;SHIP_COND&gt;&lt;/SHIP_COND&gt;
+         &lt;TRANSPZONE&gt;&lt;/TRANSPZONE&gt;
+         &lt;PART_DLV&gt;&lt;/PART_DLV&gt;
+      &lt;/PI_OPT_COMPANYDATA&gt;
+      &lt;PI_COMPANYDATA&gt;
+         &lt;TEL1_NUMBR&gt;&lt;/TEL1_NUMBR&gt;
+         &lt;CITY_NO&gt;&lt;/CITY_NO&gt;
+         &lt;DISTRICT&gt;&lt;/DISTRICT&gt;
+         &lt;NAME_4&gt;&lt;/NAME_4&gt;
+         &lt;FLOOR&gt;&lt;/FLOOR&gt;
+         &lt;BUILDING&gt;&lt;/BUILDING&gt;
+         &lt;COUNTRY&gt;&lt;/COUNTRY&gt;
+         &lt;PO_BOX_CIT&gt;&lt;/PO_BOX_CIT&gt;
+         &lt;CURRENCY&gt;&lt;/CURRENCY&gt;
+         &lt;FAX_EXTENS&gt;&lt;/FAX_EXTENS&gt;
+         &lt;PO_BOX&gt;&lt;/PO_BOX&gt;
+         &lt;POSTL_COD2&gt;&lt;/POSTL_COD2&gt;
+         &lt;POSTL_COD1&gt;&lt;/POSTL_COD1&gt;
+         &lt;TITLE_KEY&gt;&lt;/TITLE_KEY&gt;
+         &lt;POSTL_COD3&gt;&lt;/POSTL_COD3&gt;
+         &lt;TEL1_EXT&gt;&lt;/TEL1_EXT&gt;
+         &lt;LANGU_ISO&gt;&lt;/LANGU_ISO&gt;
+         &lt;LANGU&gt;&lt;/LANGU&gt;
+         &lt;CURRENCY_ISO&gt;&lt;/CURRENCY_ISO&gt;
+         &lt;STREET&gt;&lt;/STREET&gt;
+         &lt;COUNTRYISO&gt;&lt;/COUNTRYISO&gt;
+         &lt;NAME_2&gt;&lt;/NAME_2&gt;
+         &lt;E_MAIL&gt;&lt;/E_MAIL&gt;
+         &lt;NAME_3&gt;&lt;/NAME_3&gt;
+         &lt;ROOM_NO&gt;&lt;/ROOM_NO&gt;
+         &lt;NAME&gt;&lt;/NAME&gt;
+         &lt;REGION&gt;&lt;/REGION&gt;
+         &lt;FAX_NUMBER&gt;&lt;/FAX_NUMBER&gt;
+         &lt;CITY&gt;&lt;/CITY&gt;
+         &lt;DELIV_DIS&gt;&lt;/DELIV_DIS&gt;
+         &lt;TITLE&gt;&lt;/TITLE&gt;
+         &lt;C_O_NAME&gt;&lt;/C_O_NAME&gt;
+         &lt;HOUSE_NO&gt;&lt;/HOUSE_NO&gt;
+      &lt;/PI_COMPANYDATA&gt;
+      &lt;PI_COPYREFERENCE&gt;
+         &lt;SALESORG&gt;{$input.SalesOrg}&lt;/SALESORG&gt;
+         &lt;REF_CUSTMR&gt;{$input.Reference[1]/Export[1]/CUSTOMERNO}  &lt;/REF_CUSTMR&gt;
+         &lt;DIVISION&gt;{$input.Division}&lt;/DIVISION&gt;
+         &lt;DISTR_CHAN&gt;{$input.SalesChannel}&lt;/DISTR_CHAN&gt;
+      &lt;/PI_COPYREFERENCE&gt;
+      &lt;PI_CREDIT_CONTROL_FLAG&gt;&lt;/PI_CREDIT_CONTROL_FLAG&gt;
+      &lt;PI_PERSONALDATA&gt;
+         &lt;SECONDNAME&gt;&lt;/SECONDNAME&gt;
+         &lt;TEL1_NUMBR&gt;&lt;/TEL1_NUMBR&gt;
+         &lt;LANGU_P&gt;EN&lt;/LANGU_P&gt;
+         &lt;FIRSTNAME&gt;{$input.Firstname}&lt;/FIRSTNAME&gt;
+         &lt;DISTRICT&gt;&lt;/DISTRICT&gt;
+         &lt;FLOOR&gt;&lt;/FLOOR&gt;
+         &lt;MIDDLENAME&gt;&lt;/MIDDLENAME&gt;
+         &lt;BUILDING&gt;&lt;/BUILDING&gt;
+         &lt;COUNTRY&gt;{$input.Country}&lt;/COUNTRY&gt;
+         &lt;LASTNAME&gt;{$input.LastName}&lt;/LASTNAME&gt;
+         &lt;PO_BOX_CIT&gt;&lt;/PO_BOX_CIT&gt;
+         &lt;CURRENCY&gt;{$input.Currency}&lt;/CURRENCY&gt;
+         &lt;FAX_EXTENS&gt;&lt;/FAX_EXTENS&gt;
+         &lt;PO_BOX&gt;&lt;/PO_BOX&gt;
+         &lt;POSTL_COD2&gt;&lt;/POSTL_COD2&gt;
+         &lt;POSTL_COD1&gt;{$input.PostCode}&lt;/POSTL_COD1&gt;
+         &lt;TITLE_KEY&gt;&lt;/TITLE_KEY&gt;
+         &lt;TEL1_EXT&gt;&lt;/TEL1_EXT&gt;
+         &lt;TITLE_P&gt;&lt;/TITLE_P&gt;
+         &lt;CURRENCY_ISO&gt;&lt;/CURRENCY_ISO&gt;
+         &lt;STREET&gt;{$input.Street}&lt;/STREET&gt;
+         &lt;COUNTRYISO&gt;&lt;/COUNTRYISO&gt;
+         &lt;E_MAIL&gt;&lt;/E_MAIL&gt;
+         &lt;LANGUP_ISO&gt;&lt;/LANGUP_ISO&gt;
+         &lt;ROOM_NO&gt;&lt;/ROOM_NO&gt;
+         &lt;REGION&gt;{$input.Region}&lt;/REGION&gt;
+         &lt;FAX_NUMBER&gt;&lt;/FAX_NUMBER&gt;
+         &lt;CITY&gt;{$input.City}&lt;/CITY&gt;
+         &lt;ONLY_CHANGE_COMADDRESS&gt;&lt;/ONLY_CHANGE_COMADDRESS&gt;
+         &lt;DATE_BIRTH&gt;&lt;/DATE_BIRTH&gt;
+         &lt;HOUSE_NO&gt;{$input.HouseNumber}&lt;/HOUSE_NO&gt;
+      &lt;/PI_PERSONALDATA&gt;
+      &lt;PI_OPT_PERSONALDATA&gt;
+         &lt;CONTROL_ACCOUNT&gt;&lt;/CONTROL_ACCOUNT&gt;
+         &lt;TAXJURCODE&gt;&lt;/TAXJURCODE&gt;
+         &lt;DELYG_PLNT&gt;&lt;/DELYG_PLNT&gt;
+         &lt;PMNTTRMS&gt;&lt;/PMNTTRMS&gt;
+         &lt;C_CTR_AREA&gt;&lt;/C_CTR_AREA&gt;
+         &lt;SHIP_COND&gt;&lt;/SHIP_COND&gt;
+         &lt;TRANSPZONE&gt;&lt;/TRANSPZONE&gt;
+         &lt;PART_DLV&gt;&lt;/PART_DLV&gt;
+      &lt;/PI_OPT_PERSONALDATA&gt;
+      &lt;PI_CONSUMEREN&gt;&lt;/PI_CONSUMEREN&gt;
+   &lt;/Import&gt;
+&lt;/BAPI_CUSTOMER_CREATEFROMDATA1_INPUT&gt;
+</expression>
+                  </operation>
+                  <link id="ki5mzfh5" targetId="ki5mzfha"/>
+               </assignment>
+               <assignment id="ki5qiom2">
+                  <title>Assignment to Output Message, File Content</title>
+                  <operation source="field" to="output.Output Message">temp.Message</operation>
+                  <operation source="field" to="temp.File Content">output.Output Message</operation>
+                  <link id="ki5wvk0r" targetId="c"/>
+               </assignment>
+               <eventContainer id="ki5mzfha">
+                  <service id="ki5mzfh4">
+                     <title>BAPI_CUSTOMER_CREATEFROMDATA1</title>
+                     <serviceName>appconn-sap-bapi-customer:BAPI_CUSTOMER_CREATEFROMDATA1</serviceName>
+                     <serviceGUID>4h0GAp4pwaRdUcOwD47g0v</serviceGUID>
+                     <serviceInput>
+                        <parameter name="BAPI_CUSTOMER_CREATEFROMDATA1_INPUT" source="field">temp.SAP BAPI In</parameter>
+                     </serviceInput>
+                  </service>
+                  <flow id="ki5mzfhc">
+                     <assignment id="ki5pzkta">
+                        <title>Assignment to tmp_script_out</title>
+                        <operation source="formula" to="temp.tmp_script_out">
+                           <expression language="XQuery">$output.BAPI_CUSTOMER_CREATEFROMDATA1_OUTPUT[1]/Export[1]/RETURN[1]/TYPE </expression>
+                        </operation>
+                        <link id="ki5qd6a5" targetId="ki5qd6a4"/>
+                     </assignment>
+                     <container id="ki5qd6a4" type="exclusive">
+                        <title>tmp_script_out</title>
+                        <flow id="ki5qd6a7">
+                           <assignment id="ki5wvk20">
+                              <title>Customer Creation failed</title>
+                              <operation source="field" to="temp.Message">output.BAPI_CUSTOMER_CREATEFROMDATA1_OUTPUT[1]/Export[1]/RETURN[1]/MESSAGE</operation>
+                           </assignment>
+                           <link id="ki5qd6a8" targetId="ki5qd6a4" type="containerLink"/>
+                        </flow>
+                        <flow id="ki5qd6aa">
+                           <assignment id="ki5wvk1p">
+                              <title>Customer Creation Success</title>
+                              <operation source="formula" to="temp.Message">
+                                 <expression language="XQuery">concat("Customer ",$output.BAPI_CUSTOMER_CREATEFROMDATA1_OUTPUT[1]/Export[1]/CUSTOMERNO, " created")</expression>
+                              </operation>
+                           </assignment>
+                           <link id="ki5qd6ab" targetId="ki5qd6a4" type="containerLink"/>
+                        </flow>
+                        <link id="ki5qd6a6" targetId="ki5qd6a7" type="containerLink">
+                           <condition source="formula">
+                              <function name="contains">
+                                 <arg name="left">{$temp.tmp_script_out}</arg>
+                                 <arg name="right">E</arg>
+                              </function>
+                           </condition>
+                        </link>
+                        <link id="ki5qd6a9" targetId="ki5qd6aa" type="containerLink"/>
+                     </container>
+                     <link id="ki5mzfhd" targetId="ki5mzfha" type="containerLink"/>
+                  </flow>
+                  <flow id="ki5mzfhf">
+                     <assignment id="ki5qiokb">
+                        <title>Assignment to fault Message</title>
+                        <operation source="field" to="temp.Message">output.faultInfo[1]/detail</operation>
+                     </assignment>
+                     <link id="ki5mzfhg" targetId="ki5mzfha" type="containerLink"/>
+                  </flow>
+                  <link id="ki5mzfhb" targetId="ki5mzfhc" type="containerLink"/>
+                  <link id="ki5qiom3" targetId="ki5qiom2"/>
+                  <events>
+                     <catch faultField="faultInfo" id="ki5mzfh8" interrupting="true">
+                        <link id="ki5mzfhe" targetId="ki5mzfhf" type="containerLink"/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <end id="c"/>
+            </flow>
+         </process>
+         <ns1:sample-data-sets xmlns:ns1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/sampleData.xsd">
+            <ns1:SampleData>
+               <ns1:Id>d253c04f-a4f2-4cdc-b01f-a63a7cf10e2a</ns1:Id>
+               <ns1:Name>Input 1</ns1:Name>
+               <ns1:CreatedBy>rajesh.kothari@perisoft.dev</ns1:CreatedBy>
+               <ns1:CreationDate>2020-12-01T12:43:17Z</ns1:CreationDate>
+               <ns1:ModifiedBy>rajesh.kothari@perisoft.dev</ns1:ModifiedBy>
+               <ns1:ModifiedDate>2020-12-01T12:43:17Z</ns1:ModifiedDate>
+               <ns1:Data format="json">{
+	  "First name": "Nationwide",
+	 "Last Name": "Builders",
+	 "Street": "Parramatta Highway",
+	 "City": "Sydney",
+	 "Post Code": "2145",
+	 "House Number": "7",
+	 "Country": "AU",
+	 "Region": "NSW",
+	 "Currency": "AUD",
+	 "Sales Org": "AUJH",
+	 "Sales Channel": "D1",
+	 "Division": "PI",
+	 "Reference": {
+	 	 "Export": {
+	 	 	 "RETURN": {
+	 	 	 	 "MESSAGE_V2": "",
+	 	 	 	 "MESSAGE": "",
+	 	 	 	 "MESSAGE_V3": "",
+	 	 	 	 "NUMBER": "",
+	 	 	 	 "MESSAGE_V4": "",
+	 	 	 	 "LOG_NO": "",
+	 	 	 	 "MESSAGE_V1": "",
+	 	 	 	 "ID": "",
+	 	 	 	 "TYPE": "",
+	 	 	 	 "LOG_MSG_NO": ""
+	 	 	 },
+	 	 	 "CUSTOMERNO": "0000010000"
+	 	 }
+	 }
+}</ns1:Data>
+            </ns1:SampleData>
+         </ns1:sample-data-sets>
+      </types1:Entry>
+      <types1:GUID>8L8v0SCQiZ6lgfgVvyaRkA</types1:GUID>
+      <types1:DisplayName>SDFC-SAP-Account-Creation</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2020-12-29T18:46:06.738Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

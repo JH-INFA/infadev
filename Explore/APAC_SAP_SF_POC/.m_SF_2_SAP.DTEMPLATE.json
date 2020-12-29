@@ -1,0 +1,105 @@
+{
+  "objectInfo" : {
+    "id" : "72hQtYISMQJgLJ6MLSo1QR",
+    "name" : "m_SF_2_SAP",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N97170000000001OF"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "aVEnSyLYDsHciZtThLflSQ",
+    "name" : "BS_BAPI_CUSTOMER",
+    "type" : "BSERVICE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N972700000000000I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      }, {
+        "name" : "001N972800000000000R",
+        "value" : "aVEnSyLYDsHciZtThLflSQ@BAPI_CUSTOMER_GETDETAIL1"
+      }, {
+        "name" : "001N972800000000000Q",
+        "value" : "aVEnSyLYDsHciZtThLflSQ@BAPI_CUSTOMER_GETDETAIL"
+      }, {
+        "name" : "001N972800000000000P",
+        "value" : "aVEnSyLYDsHciZtThLflSQ@BAPI_CUSTOMER_GETDETAIL2"
+      }, {
+        "name" : "001N972800000000000O",
+        "value" : "aVEnSyLYDsHciZtThLflSQ@BAPI_CUSTOMER_CREATEFROMDATA1"
+      }, {
+        "name" : "001N972800000000000S",
+        "value" : "aVEnSyLYDsHciZtThLflSQ@BAPI_CUSTOMER_CHANGEFROMDATA1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/APAC_SAP_SF_POC"
+  }, {
+    "id" : "3MCZHWeRQNybYncqpnIvuZ",
+    "name" : "conn_Salesforce_SFDC_APAC",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970B000000000086"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Salesforce SFDC Connection for APAC",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "iffpvNjKEobeHRD4oL0Nop",
+    "name" : "conn_temp_2",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970B00000000009B"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
