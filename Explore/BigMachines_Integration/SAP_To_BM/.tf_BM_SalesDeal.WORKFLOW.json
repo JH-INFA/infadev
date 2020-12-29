@@ -1,0 +1,96 @@
+{
+  "objectInfo" : {
+    "id" : "hDATXXuqEwCkLMGeK8ZIc5",
+    "name" : "tf_BM_SalesDeal",
+    "type" : "WORKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970N000000000076"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Sales Deal SFTP from SAP to Bigmachines",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "4a94uV4ojwVhrCkhwkWGwB",
+    "name" : "mct_BM_SalesDeal_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SP"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "from SQL to JHINFA ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "8NwJo5S36FSkTrLicULOyB",
+    "name" : "mct_BM_SalesDeal_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SN"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "3fv3ZqkOXg6bqvVbqcxOa5",
+    "name" : "ds_BM_SalesDeal_Step3",
+    "type" : "DSS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970I00000000001I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "SFTP files from JHINFA to bigmachines remote sftp location",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  } ]
+}

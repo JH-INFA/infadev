@@ -1,0 +1,464 @@
+{
+  "objectInfo" : {
+    "id" : "0AUYl92i06agfok280tBOY",
+    "name" : "tf_BM_SAP_to_Bigmachines_Main",
+    "type" : "WORKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970N000000000077"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "SAP to Bigmanchines Main",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "75uPYyXPyv7bsI30pJBXIi",
+    "name" : "mct_BM_MF_Dist_To_Material",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZM"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "7TiLKZ3TKeib0opvU92kiZ",
+    "name" : "mct_BM_Contact_Info_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001T6"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "lEosBqA1qoLiFJ4wmrQKMs",
+    "name" : "mct_BM_Dist_To_Material",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZL"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "aT7hD3wIFnDcnjQKb6bf0R",
+    "name" : "mct_BM_Ship_To_Info_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SU"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "3uEBswz3mkYcUTciCJklsO",
+    "name" : "mct_BM_Ship_To_Info_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001T3"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "gTjUKuuzTQNeJakdLG4P46",
+    "name" : "mct_BM_Mrkting_Color_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZG"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "9hQSlPddw0DlEUgML4Mo0u",
+    "name" : "mct_BM_Account_Info_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001T5"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "3NxOUxD0icqbONFu7uXiEi",
+    "name" : "mct_BM_Contact_Info_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SX"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "4lVJrwoRvPGggRUtza8Zy1",
+    "name" : "mct_BM_PA_PE_Data_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SZ"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "aQThKEgRAt1kjfrtCgZsSj",
+    "name" : "mct_BM_Matl_Info_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZF"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "3wTdNIeJ5uUhSDNokpbiqn",
+    "name" : "mct_BM_Mrkting_Color_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZD"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "0jlF7Sp18QThT3Dn2LLnOJ",
+    "name" : "mct_BM_Account_Info_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SR"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "980UrbuJlGJcGuGcXE0hmi",
+    "name" : "mct_BM_HardieZone_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZE"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "4a94uV4ojwVhrCkhwkWGwB",
+    "name" : "mct_BM_SalesDeal_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SP"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "from SQL to JHINFA ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "8NwJo5S36FSkTrLicULOyB",
+    "name" : "mct_BM_SalesDeal_Step1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001SN"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "3fv3ZqkOXg6bqvVbqcxOa5",
+    "name" : "ds_BM_SalesDeal_Step3",
+    "type" : "DSS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970I00000000001I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "SFTP files from JHINFA to bigmachines remote sftp location",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "bhG4e8rtiYWkGgPBAV5bic",
+    "name" : "mct_BM_PA_PE_Data_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001T1"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "7A4gxsDN1UtbOadhUwD8G1",
+    "name" : "mct_BM_Matl_Info_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZI"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  }, {
+    "id" : "8uFwFKM0EEbbPzWN6vVG88",
+    "name" : "mct_BM_HardieZone_Step2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970Z0000000001ZH"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/BigMachines_Integration/SAP_To_BM"
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "1HeDLwmyzNTijqOksd2CuH",
+    "name" : "SAP_To_BM",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "SAP to BigMachines Integration ",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

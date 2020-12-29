@@ -1,0 +1,67 @@
+{
+  "objectInfo" : {
+    "id" : "3fv3ZqkOXg6bqvVbqcxOa5",
+    "name" : "ds_BM_SalesDeal_Step3",
+    "type" : "DSS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970I00000000001I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "SFTP files from JHINFA to bigmachines remote sftp location",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "bngwduJ4iIWh8rM40Dp7Uh",
+    "name" : "conn_FF_BM_Logs",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970B000000000069"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Log Files for Bigmachines SFTP data transfer",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9Dll1zHBC5nbbLPE5zAC6F",
+    "name" : "conn_FF_BM_Pending",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001N970B000000000067"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Flat files to be transferred to Bigmachines",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
