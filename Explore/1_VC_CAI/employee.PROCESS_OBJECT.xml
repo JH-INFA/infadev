@@ -1,0 +1,36 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>0ARabbfTQbdxWq9-gt-7403915-2020-03-26T00:16:59.997Z::po.xml</types1:EntryId>
+      <types1:Name>employee</types1:Name>
+      <types1:ParentFlowIds>IqSLlBWlD2pHALV-gt-6349056-2020-03-26T00:17:00.559Z::pd.xml,lFdw8jIw8jIw8jI-gt-7403931-2020-03-26T00:17:00.187Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+processobject</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>tony.yang@jameshardie.com</types1:CreatedBy>
+      <types1:CreationDate>2020-03-26T00:17:00Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                        displayName="employee"
+                        isByCopy="true"
+                        name="employee">
+            <description/>
+            <tags/>
+            <detail>
+               <field label="id" name="id" type="string"/>
+               <field label="name" name="name" type="string"/>
+            </detail>
+         </processObject>
+      </types1:Entry>
+      <types1:GUID>aqxPeaKh16Ae7EOZ669juI</types1:GUID>
+      <types1:DisplayName>employee</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-01-04T19:19:53.153Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

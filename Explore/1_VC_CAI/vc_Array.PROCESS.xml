@@ -1,0 +1,83 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>IqSLlBWlD2pHALV-gt-6349056-2020-03-26T00:17:00.559Z::pd.xml</types1:EntryId>
+      <types1:Name>vc_Array</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description>a</types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>tony.yang@jameshardie.com</types1:CreatedBy>
+      <types1:CreationDate>2020-03-26T00:17:01Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>tony.yang@jameshardie.com</types1:PublishedBy>
+      <types1:PublicationDate>2020-03-26T00:18:16Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.vc_Array/vc_Array.pd.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="vc_Array"
+                  name="vc_Array"
+                  overrideAPIName="false">
+            <appliesTo/>
+            <description>a</description>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <input>
+               <parameter description="" name="whole" type="objectlist">
+                  <options>
+                     <option name="referenceTo">$po:employee</option>
+                     <option hide="true" name="multiSelect">true</option>
+                     <option name="required">false</option>
+                     <option name="isCopy">true</option>
+                     <option name="guid">aqxPeaKh16Ae7EOZ669juI</option>
+                  </options>
+               </parameter>
+            </input>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <rest>
+                  <allowAnonymousAccess/>
+                  <wholePayload inputWholePayload="true"/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="k36cal5i" targetId="k36cal5h"/>
+               </start>
+               <subflow id="k36cal5h">
+                  <title>vc_202</title>
+                  <subflowGUID>4rgsD5GOuFSlNruVDXaf27</subflowGUID>
+                  <subflowPath>vc_202</subflowPath>
+                  <appliesTo>$po:employee</appliesTo>
+                  <appliesToDataName source="field">input.whole</appliesToDataName>
+                  <runForEach>true</runForEach>
+                  <input>
+                     <parameter name="text" source="constant" updatable="true"/>
+                  </input>
+                  <outputDef>
+                     <field name="untitled1" type="objectlist">
+                        <options>
+                           <option name="referenceTo">$po:$any</option>
+                           <option hide="true" name="multiSelect">true</option>
+                           <option name="required">false</option>
+                           <option name="isCopy">true</option>
+                        </options>
+                     </field>
+                  </outputDef>
+                  <link id="k36cal5j" targetId="c"/>
+               </subflow>
+               <end id="c"/>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>9VxFSNYssEOlmrL5bcYzMF</types1:GUID>
+      <types1:DisplayName>vc_Array</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-01-04T19:19:53.222Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

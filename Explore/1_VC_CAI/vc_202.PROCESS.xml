@@ -1,0 +1,90 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>lFdw8jIw8jIw8jI-gt-7403931-2020-03-26T00:17:00.187Z::pd.xml</types1:EntryId>
+      <types1:Name>vc_202</types1:Name>
+      <types1:ParentFlowIds>IqSLlBWlD2pHALV-gt-6349056-2020-03-26T00:17:00.559Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo>$po:employee</types1:AppliesTo>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>tony.yang@jameshardie.com</types1:CreatedBy>
+      <types1:CreationDate>2020-03-26T00:17:00Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>tony.yang@jameshardie.com</types1:PublishedBy>
+      <types1:PublicationDate>2020-03-26T00:18:16Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.vc_202/vc_202.pd.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  displayName="vc_202"
+                  name="vc_202">
+            <appliesTo isCopy="true">$po:employee</appliesTo>
+            <description/>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <input>
+               <parameter description="" name="text" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+            </input>
+            <output>
+               <field description="" name="untitled1" type="objectlist">
+                  <options>
+                     <option name="referenceTo">$po:$any</option>
+                     <option hide="true" name="multiSelect">true</option>
+                     <option name="required">false</option>
+                     <option name="isCopy">true</option>
+                  </options>
+               </field>
+            </output>
+            <tempFields>
+               <field description="" name="Query" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="k36djzzt" targetId="c"/>
+               </start>
+               <end id="c">
+                  <httpStatus>202</httpStatus>
+               </end>
+            </flow>
+         </process>
+         <ns1:sample-data-sets xmlns:ns1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/sampleData.xsd">
+            <ns1:SampleData>
+               <ns1:Id>73ee6731-402d-4fa9-9010-dc4549bb914a</ns1:Id>
+               <ns1:Name>abc</ns1:Name>
+               <ns1:CreatedBy>tony.yang@jameshardie.com</ns1:CreatedBy>
+               <ns1:CreationDate>2020-03-26T00:17:00Z</ns1:CreationDate>
+               <ns1:ModifiedBy>tony.yang@jameshardie.com</ns1:ModifiedBy>
+               <ns1:ModifiedDate>2020-03-26T00:17:00Z</ns1:ModifiedDate>
+               <ns1:Data format="json">{
+	 "id": "1",
+	 "name": "a",
+	 "text": "aa"
+}</ns1:Data>
+            </ns1:SampleData>
+         </ns1:sample-data-sets>
+      </types1:Entry>
+      <types1:GUID>4rgsD5GOuFSlNruVDXaf27</types1:GUID>
+      <types1:DisplayName>vc_202</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-01-04T19:19:53.122Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
